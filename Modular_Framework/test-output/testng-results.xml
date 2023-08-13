@@ -1,84 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T13:49:06 CDT" name="Default suite" finished-at="2023-08-06T13:49:35 CDT" duration-ms="28500">
+  <suite started-at="2023-08-12T16:00:43 CDT" name="Suite" finished-at="2023-08-12T16:01:14 CDT" duration-ms="31133">
     <groups>
     </groups>
-    <test started-at="2023-08-06T13:49:06 CDT" name="Default test" finished-at="2023-08-06T13:49:35 CDT" duration-ms="28500">
+    <test started-at="2023-08-12T16:00:43 CDT" name="Test" finished-at="2023-08-12T16:01:14 CDT" duration-ms="31133">
       <class name="in.co.mercuryTravel.tests.MercuryTravelTestCases">
-        <test-method is-config="true" signature="preSetup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:06 CDT" name="preSetup" finished-at="2023-08-06T13:49:06 CDT" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:00:43 CDT" name="preSetup" finished-at="2023-08-12T16:00:43 CDT" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:06 CDT" name="setup" finished-at="2023-08-06T13:49:21 CDT" duration-ms="14551" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:00:43 CDT" name="setup" finished-at="2023-08-12T16:01:00 CDT" duration-ms="16309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyUserLoginWithCorrectCredentials()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:21 CDT" name="verifyUserLoginWithCorrectCredentials" finished-at="2023-08-06T13:49:32 CDT" duration-ms="11058" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected:<Welcome, Sam> but was:<Welcome, Sam1>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Welcome, Sam> but was:<Welcome, Sam1>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
-at in.co.mercuryTravel.tests.MercuryTravelTestCases.verifyUserLoginWithCorrectCredentials(MercuryTravelTestCases.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyUserLoginWithCorrectCredentials()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:01:00 CDT" name="verifyUserLoginWithCorrectCredentials" finished-at="2023-08-12T16:01:14 CDT" duration-ms="14140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserLoginWithCorrectCredentials -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:32 CDT" name="afterMethod" finished-at="2023-08-06T13:49:34 CDT" duration-ms="2542" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:01:14 CDT" name="afterMethod" finished-at="2023-08-12T16:01:14 CDT" duration-ms="42" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyUserLoginWithCorrectCredentials status=FAILURE method=MercuryTravelTestCases.verifyUserLoginWithCorrectCredentials()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03] output={null}]]]>
+                <![CDATA[[TestResult name=verifyUserLoginWithCorrectCredentials status=SUCCESS method=MercuryTravelTestCases.verifyUserLoginWithCorrectCredentials()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:34 CDT" name="cleanup" finished-at="2023-08-06T13:49:35 CDT" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:01:14 CDT" name="cleanup" finished-at="2023-08-12T16:01:14 CDT" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method is-config="true" signature="postCleanup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@44ebcd03]" started-at="2023-08-06T13:49:35 CDT" name="postCleanup" finished-at="2023-08-06T13:49:35 CDT" duration-ms="478" status="PASS">
+        <test-method is-config="true" signature="postCleanup()[pri:0, instance:in.co.mercuryTravel.tests.MercuryTravelTestCases@47af7f3d]" started-at="2023-08-12T16:01:14 CDT" name="postCleanup" finished-at="2023-08-12T16:01:15 CDT" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCleanup -->
       </class> <!-- in.co.mercuryTravel.tests.MercuryTravelTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

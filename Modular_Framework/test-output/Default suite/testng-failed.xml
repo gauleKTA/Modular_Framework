@@ -10,7 +10,7 @@
           <include name="cleanup"/>
           <include name="afterMethod"/>
           <include name="setup"/>
-          <include name="verifyUserLoginWithCorrectCredentials"/>
+          <include name="verifyUserLoginWithCorrectCredentials" invocation-numbers="1"/>
         </methods>
       </class> <!-- in.co.mercuryTravel.tests.MercuryTravelTestCases -->
     </classes>

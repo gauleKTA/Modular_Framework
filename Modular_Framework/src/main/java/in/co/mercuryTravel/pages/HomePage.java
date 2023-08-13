@@ -54,9 +54,11 @@ public class HomePage extends BasePage {
 	private WebElement mobileNumber;
 	@FindBy(xpath = "//button[text()='Register']")
 	private WebElement registerButton;
-	@FindBy (partialLinkText = "Welcome,")
+	@FindBy(partialLinkText = "Welcome,")
 	private WebElement welcome;
-	//private WebDriver driver;
+	@FindBy (partialLinkText = "Log Out")
+	private WebElement logoutLink;
+	// private WebDriver driver;
 
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -91,7 +93,12 @@ public class HomePage extends BasePage {
 		commonElement.setText(mobileNumber, phoneNumber);
 		commonElement.clickElement(registerButton);
 	}
+
 	public String loginVerification() throws Exception {
 		return commonElement.getText(welcome);
+	}
+	public void logOut() throws Exception{
+		mouseControl.moveToElement(welcome);
+		mouseControl.moveToElementAndClick(logoutLink);
 	}
 }

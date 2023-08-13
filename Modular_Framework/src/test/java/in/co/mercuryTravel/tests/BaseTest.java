@@ -114,8 +114,8 @@ public class BaseTest {
 	public void afterMethod(ITestResult result) throws Exception {
 		// Create the name of testcase
 		String testcaseName = result.getTestName();
-		String screenshotFileName = String.format("%s/screenshots/%s-%s.jpeg", 
-				currentWorkingDirectory,testcaseName,executionStartDate);
+		String screenshotFileName = String.format("%s/screenshots/%s-%s.jpeg", currentWorkingDirectory, testcaseName,
+				executionStartDate);
 
 		if (result.getStatus() == ITestResult.SUCCESS) {
 			extentTest.log(Status.PASS, "Test case PASS no. " + testcaseName);
